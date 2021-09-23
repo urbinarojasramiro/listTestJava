@@ -48,8 +48,12 @@ public class ListTest {
             
         }
         
-        Empleado emp2 = new Empleado("Juan", puesto);
+        
+        System.out.println("Ingrese un nuevo trabajador");
+        String nuevo = s.nextLine();
+        Empleado emp2 = new Empleado(nuevo, puesto);
         if(empresaList.contains(emp2)){
+        } else {
             System.out.println("Si existe");
         }
         
