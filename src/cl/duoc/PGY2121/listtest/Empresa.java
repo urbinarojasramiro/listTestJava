@@ -12,7 +12,7 @@ import java.util.List;
  * @author escor
  */
 public class Empresa {
-    List<Empleado> empleado;
+    private List<Empleado> empleado;
 
     public Empresa(List<Empleado> empleado) {
         this.empleado = empleado;
